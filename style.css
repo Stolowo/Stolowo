@@ -1,1 +1,7 @@
-Wrzuć zawartość do repozytorium GitHub i włącz GitHub Pages.
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:100vh;background:url('assets/background.png') center/cover no-repeat;display:flex;justify-content:center;align-items:flex-end;font-family:Arial,sans-serif}
+.buttons{margin-bottom:90px;display:flex;gap:25px}
+.buttons a{width:74px;height:74px;border-radius:18px;display:flex;justify-content:center;align-items:center;font-size:38px;color:#fff;text-decoration:none;box-shadow:0 10px 25px rgba(0,0,0,.25);transition:.25s}
+.buttons a:hover{transform:translateY(-5px) scale(1.08)}
+.instagram{background:linear-gradient(135deg,#f9ce34,#ee2a7b,#6228d7)}
+.facebook{background:#1877F2}

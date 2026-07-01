@@ -1,14 +1,14 @@
 
-*{box-sizing:border-box}html,body{margin:0;height:100%;font-family:Arial,sans-serif}
-.hero{position:relative;height:100vh;overflow:hidden}
-.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:zoom 18s ease-in-out infinite alternate}
-.overlay{position:absolute;inset:0;background:rgba(0,0,0,.35)}
-.content{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px}
-.logo{width:min(320px,75vw);margin-bottom:50px;animation:fade .9s ease}
-.buttons{width:min(420px,92vw);display:flex;flex-direction:column;gap:16px;animation:up 1s ease}
-.btn{display:flex;align-items:center;justify-content:space-between;text-decoration:none;color:#111;background:#fff;padding:18px 22px;border-radius:16px;font-size:1.1rem;font-weight:600;transition:.25s}
-.btn:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.25)}
-.btn svg{width:24px;height:24px;margin-right:14px}.btn span{flex:1;margin-left:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Manrope',sans-serif;overflow:hidden;background:#000}
+.hero{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;animation:zoom 18s ease-in-out infinite alternate}
+.shade{position:fixed;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,.08) 55%,rgba(0,0,0,.18))}
+.bottom{position:fixed;left:0;right:0;bottom:0;padding:32px 22px 38px;display:flex;flex-direction:column;gap:16px}
+h1{color:#fff;font-size:2rem;letter-spacing:.35rem;margin-bottom:8px}
+.btn{text-decoration:none;color:#fff;padding:18px 20px;border-radius:18px;display:flex;align-items:center;justify-content:space-between;font-size:1.1rem;font-weight:700;backdrop-filter:blur(8px);transition:.2s}
+.btn span:nth-child(2){flex:1;margin-left:14px}
+.insta{background:linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045)}
+.fb{background:#1877F2}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 25px rgba(0,0,0,.35)}
+.icon{width:28px;height:28px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.18);border-radius:50%;font-weight:800}
 @keyframes zoom{from{transform:scale(1)}to{transform:scale(1.08)}}
-@keyframes fade{from{opacity:0;transform:translateY(-20px)}to{opacity:1}}
-@keyframes up{from{opacity:0;transform:translateY(30px)}to{opacity:1}}

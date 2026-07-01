@@ -1,1 +1,0 @@
-Gotowe do GitHub Pages.

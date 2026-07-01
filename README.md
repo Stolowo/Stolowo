@@ -1,0 +1,1 @@
+Wgraj pliki do repozytorium GitHub i włącz GitHub Pages.

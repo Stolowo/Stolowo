@@ -1,1 +1,0 @@
-Wrzuć zawartość do repozytorium GitHub i włącz GitHub Pages.
